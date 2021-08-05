@@ -21,7 +21,9 @@ namespace RatingAdjustment.Services
          */
         void SetPercentPositive(double stars)
         {
-            this._percent_positive = stars / RatingAdjustmentService.MAX_STARS;
+            // TODO: Implement this!
+            _percent_positive = stars / MAX_STARS;
+
         }
 
         /**
@@ -29,7 +31,14 @@ namespace RatingAdjustment.Services
          */
         void SetQ(double number_of_ratings)
         {
-            this._q = Z * Math.Sqrt((this._percent_positive * (1 - this._percent_positive) + (Math.Pow(RatingAdjustmentService.Z, 2) / (4 * number_of_ratings))) / number_of_ratings);
+            // TODO: Implement this!
+            double z_square = Z * Z;
+            double calcBuff;
+            calcBuff = _percent_positive * (1 - _percent_positive);
+            calcBuff += z_square / (4 * number_of_ratings);
+            calcBuff /= number_of_ratings;
+            calcBuff = Z * Math.Sqrt(calcBuff);
+            _q = calcBuff;
         }
 
         /** Adjusted lower bound
@@ -38,11 +47,19 @@ namespace RatingAdjustment.Services
          * 
          * Returns: a double, up to 5
          */
-        public double Adjust(double stars, double number_of_ratings) {
-            this.SetPercentPositive(stars);
-            this.SetQ(number_of_ratings);
-            return (this._percent_positive + (Math.Pow(RatingAdjustmentService.Z, 2) / (2 * number_of_ratings)) - this._q) / (1 + (Math.Pow(RatingAdjustmentService.Z, 2) / number_of_ratings)) * MAX_STARS;
+        public double Adjust(double stars, double number_of_ratings)
+        {
+            // TODO: Implement this!
+            SetPercentPositive(stars);
+            SetQ(number_of_ratings);
+            double z_square = Z * Z;
+            double calcBuff = _percent_positive - _q;
+            calcBuff += z_square / (2 * number_of_ratings);
+            calcBuff /= 1 + z_square / number_of_ratings;
+            double lowerBound = calcBuff * MAX_STARS;
+            return lowerBound;
         }
     }
-    }
+}
+
 

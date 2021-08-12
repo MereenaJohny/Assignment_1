@@ -1,0 +1,12 @@
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\bin\Debug\net5.0\RatingAdjustmentService.deps.json
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\bin\Debug\net5.0\RatingAdjustmentService.dll
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\bin\Debug\net5.0\ref\RatingAdjustmentService.dll
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\bin\Debug\net5.0\RatingAdjustmentService.pdb
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.csproj.AssemblyReference.cache
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.AssemblyInfoInputs.cache
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.AssemblyInfo.cs
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.csproj.CoreCompileInputs.cache
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.dll
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\ref\RatingAdjustmentService.dll
+C:\Users\Mereena\Desktop\git\Assignment_1\RatingAdjustmentService\obj\Debug\net5.0\RatingAdjustmentService.pdb
